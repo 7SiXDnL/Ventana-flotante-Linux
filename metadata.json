@@ -1,0 +1,6 @@
+{
+  "name": "Ubuntu GTK4 FloatHUD - Monitor de Clima y Hardware GNOME",
+  "description": "Aplicación flotante nativa GTK4/Libadwaita para Ubuntu y GNOME con monitoreo de clima en tiempo real, temperatura de laptop, frecuencia de procesador y memoria RAM con temas oscuros y alta personalización.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

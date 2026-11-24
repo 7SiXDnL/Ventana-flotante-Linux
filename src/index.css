@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gnome-dark-bg: #1e1e1e;
+    --gnome-card-bg: #242424;
+    --gnome-card-border: rgba(255, 255, 255, 0.08);
+    --ubuntu-orange: #e95420;
+    --adwaita-blue: #3584e4;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #111113;
+    color: #f6f6f6;
+    overflow-x: hidden;
+  }
+
+  /* Monospace tabular metrics for latency, temperature, clock GHz and RAM */
+  .font-mono,
+  .tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbars matching GNOME Adwaita */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
